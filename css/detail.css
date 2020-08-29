@@ -1,0 +1,109 @@
+.main{
+    height: 850px;
+}
+.content{
+    height: 800px;
+    margin: auto 30px;
+    box-sizing: border-box;
+    float: left;
+    position: center;
+    padding: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+.img-div{
+    box-sizing: border-box;
+    position: center;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 600px;
+    height: 600px;
+}
+.information{
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.button-buy{
+    margin-bottom: 30px;
+}
+.button-buy button{
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    outline: none;
+    border-radius: 60px;
+    text-align: center;
+    outline: none;
+    display: inline-block;
+    color: white;
+    background: indianred;
+}
+
+/*制作滚动效果*/
+.bannerimage{
+    width:750px;
+    height:800px;
+    float:left;
+    background-size:100% 100%;
+    color:#fff;
+}
+
+.box{
+    width:700px;
+    height:800px;
+    background-color: white;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.img-scroll{
+    width:4900px;
+    height:700px;
+    position:relative;
+}
+
+.img-scroll img{
+    float:left;
+    width:700px;
+    height:700px;
+}
+
+.button-scroll{
+    position:relative;
+    top:-20px;
+    text-align:center;
+    left:0;
+    transition:left 1s;
+}
+
+.button-scroll span{
+    width:10px;
+    height:10px;
+    background-color: whitesmoke;
+    display:inline-block;
+    position:relative;
+    z-index:5;
+    margin:0 5px;
+    border-radius:100%;
+    cursor: pointer;
+}
+
+.information h1{
+    margin: 50px auto;
+}
+/*商品详细字体设置*/
+.information h1{
+    font-size: 36px;
+}
+.information h2{
+    font-size: 30px;
+}
+.information p{
+    font-size: 24px;
+    line-height: 48px;
+}

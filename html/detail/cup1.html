@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品展示</title>
+    <script type="text/javascript" src="../../js/comm.js"></script>
+    <script type="text/javascript" src="../../js/product.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/global.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/detail.css" />
+</head>
+<body>
+<div class="navibar"><!-- 导航栏部分 -->
+    <ul>
+        <li class="logo"><p>内卷购物网</p></li>
+        <li class="logout" onclick="deleteSession()"><a href="../home.html">注销</a></li>
+        <li class="link"><a href="../login.html" id="LOR"></a></li>
+        <li class="link"><a href="../orderlist.html">订单</a></li>
+        <li class="link"><a href="../cartlist.html">购物车</a></li>
+        <li class="link"><a class="active" href="../home.html">购物</a></li>
+    </ul>
+</div>
+
+<div class="main">
+    <div class="bannerimage">
+        <div class='box'>
+            <div class='img-scroll'>
+                <img src="../../images/cup1/1.jpg" alt="1">
+                <img src="../../images/cup1/2.jpg" alt="2">
+                <img src="../../images/cup1/3.jpg" alt="3">
+                <img src="../../images/cup1/4.jpg" alt="4">
+                <img src="../../images/cup1/5.jpg" alt="5">
+                <img src="../../images/cup1/6.jpg" alt="6">
+                <img src="../../images/cup1/1.jpg" alt="1">
+            </div>
+            <div class='button-scroll'>
+                <span data-index='0'></span>
+                <span data-index='1'></span>
+                <span data-index='2'></span>
+                <span data-index='3'></span>
+                <span data-index='4'></span>
+                <span data-index='5'></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="content"><!--商品信息和购买按钮-->
+        <div class="information">
+            <h1>英国Vanow水杯 运动水杯</h1>
+            <h2>价格：99</h2>
+            <p>
+                vanow新款塑料杯ritan材质，一键开启，吮吸头设计，方便喝水<br>
+                容量大小:容量很大，够用<br>
+                密封严实：一点都不漏水，特别好用，按键开启处可以锁住防止误按<br>
+                便携性：有折叠的提手，很方便，<br>
+                材质安全：Tritan材质手感很好，安全放心<br>
+            </p>
+        </div>
+        <div class="button-buy">
+            <button type="button" onclick="addcart('水杯',99,6)">加入购物车</button>
+            <button type='button' onclick="buynow('水杯',99,6)">立即购买</button>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+
+/* 标题 */
+.header {
+    height: 400px;
+    width: 100%;
+    padding: 80px;
+    position: absolute;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+.header h1 {
+    font-family:Tahoma,serif;
+    font-size: 50px;
+    display: block;
+    letter-spacing:48px;
+}
+
+.header p{
+    font-family:Tahoma,serif;
+    font-size: 20px;
+    display: block;
+    font-style: oblique;
+    font-variant:small-caps;
+}
+
+.main{/*更新冒点位置*/
+    top: 400px;
+}
+
+
+.content{
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    width: 340px;
+    height: 380px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 30px;
+    background-color: beige;
+}
+
+
+
+
+.goods {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+.goods a:hover .mask {
+    opacity: 1;
+}
+
+/*在block上面制作浮动效果*/
+.mask{
+    position: absolute;
+    margin-left:auto ;
+    top:0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background: rgba(101, 101, 101, 0.6);
+    color: #ffffff;
+    opacity: 0;
+    border-radius: 20px;
+}
+
+.mask h3{
+    text-align: center;
+    margin: 30% auto;
+    color: #3cdeab;
+    font: 14px/1.5 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+}
+
+
+
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.content p{
+    padding: 0;
+    font-family: 宋体;
+    font-size: 20px;
+    color: #26106f;
+}
+
+.content a:visited p{
+    color: #666666;
+}
+
+.content a:link p{
+    color: #666666;
+}
+
+.content a:hover p{
+     color: #666666;
+ }
+
+.content a:active p{
+      color: #666666;
+  }
+
+

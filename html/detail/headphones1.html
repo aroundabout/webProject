@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品展示</title>
+    <script type="text/javascript" src="../../js/comm.js"></script>
+    <script type="text/javascript" src="../../js/product.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/global.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/detail.css" />
+</head>
+<body>
+<div class="navibar"><!-- 导航栏部分 -->
+    <ul>
+        <li class="logo"><p>内卷购物网</p></li>
+        <li class="logout" onclick="deleteSession()"><a href="../home.html">注销</a></li>
+        <li class="link"><a href="../login.html" id="LOR"></a></li>
+        <li class="link"><a href="../orderlist.html">订单</a></li>
+        <li class="link"><a href="../cartlist.html">购物车</a></li>
+        <li class="link"><a class="active" href="../home.html">购物</a></li>
+    </ul>
+</div>
+
+<div class="main">
+    <div class="bannerimage">
+        <div class='box'>
+            <div class='img-scroll'>
+                <img src="../../images/headphones1/1.jpg" alt="1">
+                <img src="../../images/headphones1/2.jpg" alt="2">
+                <img src="../../images/headphones1/3.jpg" alt="3">
+                <img src="../../images/headphones1/4.jpg" alt="4">
+                <img src="../../images/headphones1/5.jpg" alt="5">
+                <img src="../../images/headphones1/6.jpg" alt="6">
+                <img src="../../images/headphones1/1.jpg" alt="1">
+            </div>
+            <div class='button-scroll'>
+                <span data-index='0'></span>
+                <span data-index='1'></span>
+                <span data-index='2'></span>
+                <span data-index='3'></span>
+                <span data-index='4'></span>
+                <span data-index='5'></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="content"><!--商品信息和购买按钮-->
+        <div class="information">
+            <h1>铁三角 ESW990H 梧桐木制头戴式便携HIFI耳机</h1>
+            <h2>价格：2999</h2>
+            <p>
+                外壳以用于制作传统高档弦乐器的梧桐木材，作精雕细琢而成，能带出至为纯净的中高频率音色。<br>
+                驱动单元设统一轭轴的两套磁路组件，优化磁铁性能以提供高分辨率音频。<br>
+                为EARSUIT系列而设计的可拆卸式音频线，特别配有新开发的A2DC*连接器。<br>
+                内建收音及控制按钮，方便于智能手机和其他设备操作。<br>
+                以小羊皮制作的耐用耳垫，提供额外舒适的配戴感。
+            </p>
+        </div>
+        <div class="button-buy">
+            <button type="button" onclick="addcart('头戴式耳机',2999,8)">加入购物车</button>
+            <button type='button' onclick="buynow('头戴式耳机',2999,8)">立即购买</button>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
