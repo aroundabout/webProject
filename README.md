@@ -4,6 +4,8 @@
 
 1850231 姚凯楠
 
+github:<https://github.com/aroundabout/webProject>
+
 项目访问：<http://172.81.210.83/webProject/html/home.html>
 
 1. 本项目是基于原生html、css、js的简单购物网站。实现了商品展示、用户注册登录、添加购物车、登陆状态结算下单、查阅订单信息等功能，严格分离html、css、js，使用ajax向后端发起请求。后端使用wamp集成开发环境，使用php作为主要开发语言，使用mysql完成数据持久化，严格分离前后端。项目部署在云服务器上，访问地址如上所示。
